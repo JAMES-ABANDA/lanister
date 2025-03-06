@@ -1,0 +1,27 @@
+# Ignore les dépendances et fichiers temporaires
+/vendor/
+composer.lock
+/package-lock.json
+/node_modules/
+
+/# Fichiers spécifiques à Drupal
+/sites/default/files/
+sites/default/private/
+/sites/default/settings.php
+/sites/default/settings.local.php
+
+# Cache et fichiers temporaires
+/tmp/
+*.swp
+*.swo
+*.bak
+
+# Fichiers système
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Clés et configurations sensibles (exemple si utilisé)
+web/sites/default/services.yml
+web/sites/default/settings.local.php
