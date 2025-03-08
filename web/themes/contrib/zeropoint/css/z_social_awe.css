@@ -1,0 +1,21 @@
+/* Social links */
+
+#soclinks {
+  padding: 5px;
+}
+#soclinks a,
+#soclinks a:hover {
+  border-bottom: none;
+  text-decoration: none;
+}
+.sociallinks:hover {
+  opacity: 0.8;
+}
+#soclinks .fa,
+#soclinks .fab,
+#soclinks .fas,
+#soclinks .fa-brands,
+#soclinks .fa-solid {
+  font-size: 1.5em;
+  width: 30px;
+}
