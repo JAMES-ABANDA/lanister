@@ -893,4 +893,8 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 error_reporting(E_ALL);
 
-$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';
+parameters:
+  cache.backend.null: null
+services:
+  cache.backend.null:
+    class: Drupal\Core\Cache\NullBackendFactory
